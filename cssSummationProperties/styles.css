@@ -1,0 +1,101 @@
+h1{
+    color: red;
+}
+#main{
+    color: aqua;
+}
+.sub{
+    background-color: aquamarine;
+    font-family: "consolas", sans-serif;
+    /* providiing 2 fonts would make sure if the former does not work , the latter will be applied */
+}
+
+.border{
+    /* shorthand property for applying borders */
+    border: 2px solid black; 
+    /* will make the edges of the border rounded */
+    border-radius: 10px;
+
+    
+
+}
+body{
+    /* adding linear gradient to the body */
+  background: linear-gradient(skyblue, lime);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.box1{
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    font-size: 22px;
+    background-color: palegreen;
+
+    /* adding margin  */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-left: 50px;
+
+    
+}
+.box2{
+    border: 2px solid black;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    font-size: 20px;
+    text-align: center;
+    background-color: paleturquoise;
+
+    float: right;
+}
+/* positioning in css */
+#d1{
+    height: 400px;
+    width: 400px;
+    background-color: tomato;
+    border: 1px solid;
+
+    position: relative;
+    top: 50 px;
+}
+
+#d2{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    border: 1px solid;
+
+    position: absolute; 
+    top: 50px;
+    bottom: 30px;
+}
+/* pseudo classes in Css */
+a:link{
+    color: lawngreen;
+}
+a:visited{
+    color: gray;
+}
+a:active{
+    color: yellow;
+}
+
+button:hover{
+    background-color:red;
+}
+
+p::first-letter{
+    font-size: 40px;
+    font-style: italic;
+
+}
+p ::first-line{
+    color: palevioletred;
+}
