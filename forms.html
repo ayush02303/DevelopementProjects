@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Forms in HTML -->
+    <form action="">
+      <!-- input types in forms -->
+
+      <!-- text-->
+
+      <label for="username">Username: </label>
+      <input
+        type="text"
+        id="username"
+        minlength="6"
+        required
+        placeholder="enter your name"
+      /><br />
+
+      <!-- password-->
+
+      <label for="password">Password</label>
+      <input type="password" id="password" /><br />
+
+      <!-- email -->
+
+      <label for="email">Enter Email</label>
+      <input type="email" id="email" /><br />
+      <!-- phone -->
+
+      <label for="phone">Enter phone No.</label>
+      <input type="tel" id="phone" /><br />
+
+      <!-- date -->
+
+      <label for="d">Enter Date</label>
+      <input type="date" id="d" /><br />
+      <!-- number -->
+
+      <label for="quantity">Enter Quantity</label>
+      <input type="number" id="quantity" /><br />
+
+      <!-- radio buttons -->
+      <label for="a1">Apple</label>
+      <input type="radio" id="a1" name="title">
+
+      <label for="a2">Vinegar</label>
+      <input type="radio" id="a2" name="title">
+
+      <label for="a3">Orange</label>
+      <input type="radio" id="a3" name="title"><br>
+
+      <!-- select -->
+       <label for="payment">Payment</label>
+       <select id="payment">
+        <option value="MasterCard">Visa</option>
+        <option value="Visa">MasterCard</option>
+        <option value="PayPal">PayPal</option>
+        
+       </select><br>
+
+      <input type="reset" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
